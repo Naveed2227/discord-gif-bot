@@ -1,0 +1,16 @@
+{
+  "name": "discord-gif-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot that lets users pick and send GIFs via buttons",
+  "main": "gif.js",
+  "scripts": {
+    "start": "node gif.js",
+    "deploy": "node register.js"
+  },
+  "author": "Wyzlle",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.3.1"
+  }
+}
